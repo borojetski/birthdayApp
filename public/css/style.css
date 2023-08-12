@@ -88,6 +88,12 @@ a, .login-page ul, .login-page ol, .login-page p {
     -webkit-text-fill-color: rgba(0,0,0,.15);
 }
 
+@media (max-width: 768px) {
+    .txt-shaded-w-y {
+        text-shadow: 1px 1px 0px #fff;
+    }
+ }
+
 .btn {
     font-family: 'Dosis', sans-serif; 
     background-color: var(--primary-color);
