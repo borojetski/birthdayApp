@@ -53,15 +53,15 @@
                 <![endif]-->
                 <table role="presentation" style="width:94%; max-width: 920px;border:none;border-spacing:0;text-align:left;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:22px;color:#e84f13eb">
                   <tr>
-                    <td style="padding: 40px 30px 30px 30px; text-align: center; font-size: 24px; font-weight: bold">
+                    <td style="padding: 40px 30px 30px 30px; text-align: center; font-size: 26px; font-weight: bold">
                       <p style="color: #ff0000">Red Balloon</p>            
                     </td>
                   </tr>
                   <tr>
                       <td style="padding-bottom: 10px; text-align: center;">
                         
-                        <h1 style="margin-top: 0; margin-bottom: 16px; font-size: 26px; line-height: 32px; font-weight: bold; letter-spacing: -0.02em;">Hi, <%= indAlert.userName %></h1>
-                      <h1 style="margin-top: 0; margin-bottom: 16px; font-size: 26px; line-height: 32px; font-weight: bold; letter-spacing: -0.02em;">Time to celebrate!</h1>
+                        <h1 style="margin-top: 0; margin-bottom: 16px; font-size: 18px; line-height: 26px; font-weight: bold; letter-spacing: -0.02em;">Hi, <%= indAlert.userName %></h1>
+                      <h1 style="margin-top: 0; margin-bottom: 16px; font-size: 18px; line-height: 26px; font-weight: bold; letter-spacing: -0.02em;">Time to celebrate!</h1>
                       <!-- <p style="margin: 0; font-size: 18px; font-weight: bold;">Upcoming birthdays</p> -->
                     </td>
                   </tr>
@@ -76,12 +76,11 @@
 
                                 <!-- <p style="font-size: 18px; color: #e84f13eb; margin-top: 0; margin-bottom: 12px; font-weight: bold;">Tomorrow:</p> -->
                                 <% for (let i = 0; i < indAlert.individualBirthdayAlert.length; i++) { %>
-                                <p style="font-size: 16px; margin-top: 0; margin-bottom: 18px;"><span style="font-weight: bold;">
+                                <p style="font-size: 16px; margin-top: 0;"><span style="font-weight: bold;">
                                   <%= indAlert.individualBirthdayAlert[i].birthdayPerson %>
                                   :</span><span style="font-weight: normal;">                                     
                                     <%= indAlert.individualBirthdayAlert[i].birthday %></span></p> 
-                
-                             <% } %>   
+                                <% } %>   
                               </div>
                   </tr>
           </td>

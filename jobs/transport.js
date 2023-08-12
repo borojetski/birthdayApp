@@ -54,11 +54,11 @@ async function sendNotificationEmail(indAlert) {
         html: data, // html body
         // embed logo
         attachments: [
-            {
+            /*{
                 filename: 'logo.png',
                 path: path.join(__dirname, "../public/images/balloon_logo.png"), 
                 cid: 'logo'
-            }, 
+            },*/ 
             {
                 filename: 'background.jpg', 
                 path: path.join(__dirname, '../public/images/background.jpg'),
