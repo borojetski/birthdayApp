@@ -14,7 +14,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    background: url(/images/paper-bg.png) no-repeat center center fixed; 
+    background: url(/images/Paper-bg.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
