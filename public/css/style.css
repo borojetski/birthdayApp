@@ -82,7 +82,7 @@ a, .login-page ul, .login-page ol, .login-page p {
 }
 
 .txt-shaded-w-y {
-    background: linear-gradient(-175deg,white 0%,#FEFC97 82.5%);
+    background: linear-gradient(-175deg,#FFFFFF 0%,#FEFC97 82.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(0,0,0,.15);

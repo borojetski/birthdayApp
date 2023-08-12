@@ -4,3 +4,4 @@ node_modules
 config/.env
 .stfolder
 .stignore
+.DS_Store
