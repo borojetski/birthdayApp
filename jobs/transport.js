@@ -56,7 +56,7 @@ async function sendNotificationEmail(indAlert) {
         attachments: [
             {
                 filename: 'logo.png',
-                path: path.join(__dirname, "../public/images/logo.png"), 
+                path: path.join(__dirname, "../public/images/balloon_logo.png"), 
                 cid: 'logo'
             }, 
             {
